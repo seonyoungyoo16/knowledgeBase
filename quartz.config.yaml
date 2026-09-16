@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: ko-KR
-  baseUrl: seonyoungyoo16.github.io #quartz.jzhao.xyz
+  baseUrl: seonyoungyoo16.github.io/knowledgeBase #quartz.jzhao.xyz
   ignorePatterns:
     - private
     - templates

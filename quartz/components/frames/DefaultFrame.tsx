@@ -1,7 +1,9 @@
 import { PageFrame, PageFrameProps } from "./types"
 import HeaderConstructor from "../Header"
+import ChatWidgetConstructor from "../ChatWidget"
 
 const Header = HeaderConstructor()
+const ChatWidget = ChatWidgetConstructor()
 
 /**
  * The default page frame — three-column layout with left sidebar, center
@@ -57,6 +59,7 @@ export const DefaultFrame: PageFrame = {
         {footer.map((FooterComponent) => (
           <FooterComponent {...componentData} />
         ))}
+        <ChatWidget {...componentData} />
       </>
     )
   },

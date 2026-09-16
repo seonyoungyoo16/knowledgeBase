@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: 🪴 My Knowledge Base
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  locale: ko-KR
+  baseUrl: seonyoungyoo16.github.io/knowledgeBase #quartz.jzhao.xyz
   ignorePatterns:
     - private
     - templates
@@ -121,7 +121,7 @@ plugins:
   - source: "@quartz-community/og-image"
     enabled: true
   - source: "@quartz-community/cname"
-    enabled: true
+    enabled: false #true
   - source: "@quartz-community/canvas-page"
     enabled: true
   - source: "@quartz-community/content-page"

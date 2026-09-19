@@ -2,7 +2,7 @@
 doc_id: KB-RFQ-001
 type: RFQ
 title: Obsidian 지식베이스 웹 공개와 RAG 챗봇
-status: draft
+status: approved
 upstream: []
 ---
 
